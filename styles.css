@@ -1,0 +1,453 @@
+/* index */
+
+body {
+  font-family: "Roboto";
+}
+
+::selection{
+  background-color: #053941;
+  color: #fff;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.navbar {
+  background-color: #850040;
+  background-image: linear-gradient(0deg, #850040 0%, #660336 100%);
+  padding: 0;
+}
+
+.traductor{
+    justify-content: start;
+    padding: 20px 40px;
+    height: 100%;
+    margin: 0;
+}
+
+.traductor:hover {
+  background-color: #38021e;
+}
+
+.navbar-nav a {
+  padding: 20px 40px;
+  height: 100%;
+  margin: 0;
+}
+
+.navbar-nav a:hover {
+  background-color: #38021e;
+}
+
+.welcome {
+  height: calc(100vh - 20px);
+  background-color: #313131;
+  background-image: linear-gradient(43deg, #313131 0%, #141414 46%, #000000 100%);
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  justify-content: center;
+  align-content: center;
+}
+
+.welcome h1{
+  letter-spacing: 2px;
+  font-weight: 900;
+}
+
+h2{
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.welcome h2 {
+  color: #850040;
+}
+
+.welcome h1{
+  font-size: 3em;
+  text-align: center;
+}
+
+.welcome h2::before {
+  content: "<  ";
+  opacity: 0;
+  transition: opacity 0.2s;
+  color: rgb(196, 130, 7);
+}
+
+.welcome h2::after {
+  content: "  />";
+  opacity: 0;
+  transition: opacity 0.2s;
+  color: rgb(196, 130, 7);
+}
+
+.welcome h2:hover::before {
+  opacity: 1;
+}
+
+.welcome h2:hover::after {
+  opacity: 1;
+}
+
+.projects {
+  background-color: #065662;
+  min-height: 100vh;
+  color: #fff;
+  padding: 0 20%;
+}
+
+.projects h2 {
+  text-align: center;
+  padding: 8% 0;
+  font-size: 2.8em;
+}
+
+.effects:hover .imglp, .effects:hover .imgsf, .effects:hover .imgtdp, .effects:hover .imgtp,  .effects:hover .imglw, .effects:hover .imgmw{
+  filter: none;
+  opacity: 1;
+}
+
+.card {
+  margin-bottom: 30px;
+  background-color: #19DAF7;
+  text-align: center;
+  border: 0;
+  color: #313131;
+}
+
+.imggeneral{
+  display: block;
+  height: 300px;
+  width: 100p;
+  background-position: center;
+  background-size: cover;
+  filter: grayscale(1);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+
+.imglp{
+  background-image: url(./multimedia/cubz.png);
+}
+
+.imgsf{
+  background-image: url(./multimedia/reactProject.png);
+}
+
+.imgtdp{
+  background-image: url(./multimedia/technicalDocumentationPage.png);
+}
+
+.imgtp{
+  background-image: url(./multimedia/tributePage.png);
+}
+
+.imglw{
+  background-image: url(./multimedia/websiteProject.png);
+}
+
+.imgmw{
+  background-image: url(./multimedia/websiteProject2.png);
+}
+
+.card .hyperlink {
+  width: 100%;
+  border-radius: 0;
+  border: 0;
+  padding: 20px;
+  background-color: #313131;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.card .hyperlink:hover{
+  background-color: #313131;
+}
+
+.card .hyperlink::before {
+  content: "<   ";
+  opacity: 0;
+  transition: opacity 0.2s;
+  color: rgb(196, 130, 7);
+}
+
+.card .hyperlink::after {
+  content: "  />";
+  opacity: 0;
+  transition: opacity 0.2s;
+  color: rgb(196, 130, 7);
+}
+
+.effects:hover .card .hyperlink::before {
+  opacity: 1;
+}
+
+.effects:hover .card .hyperlink::after {
+  opacity: 1;
+}
+
+.contact{
+  min-height: 100vh;
+  background-color: #313131;
+  background-image: linear-gradient(43deg, #313131 0%, #141414 46%, #000000 100%);
+  color: #fff;
+  text-align: center;
+}
+
+.contact h2{
+  text-align: center;
+  padding-top: 20%;
+  font-size: 3em;
+}
+
+.contact h3{
+  font-size: 2rem;
+  font-style: italic;
+  color: #850040;
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+
+.contact_icons{
+  padding: 10% 15%;
+}
+
+.contacticon img{
+  transition: all 0.3s;
+}
+
+.contacticon img:hover{
+  scale: 1.1;
+}
+
+.footer{
+  display: flex;
+  min-height: 20vh;
+  color: white;
+  border-top: 5px solid #065662;
+  background-color: #313131;
+  background-image: linear-gradient(43deg, #313131 0%, #141414 80%, #000000 100%);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer h3{
+  font-size: medium;
+  font-style: italic;
+}
+
+.up{
+  height: 60px;
+  width: 60px;
+  background-color: #660336;
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  text-align: center;
+  line-height: 60px;
+  color: white;
+  border-radius: 50%;
+  border: 2px solid white;
+  font-size: 30px;
+}
+
+.up:hover{
+  color: #fff;
+}
+
+/* finaliza el index */
+
+/* arranca el cv */
+
+#cv{
+    height: 100vh;
+    width: 100%;
+}
+
+/* finaliza el cv */
+
+
+/* arranca el about */
+
+.aboutWelcome{
+  width: 100%;
+  min-height: 100vh;
+  background-color: #313131;
+  background-image: linear-gradient(43deg, #313131 0%, #141414 46%, #000000 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.aboutWelcomeContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #fff;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+.aboutWelcomeLeft{
+  width: 25%;
+  height: 100%;
+  align-self: flex-start;
+}
+
+
+.h3Effect{
+  text-align: center;
+  font-size: large;
+}
+
+.h3Effect::before {
+  content: "<";
+  opacity: 0;
+  transition: opacity 0.2s;
+  color: rgb(196, 130, 7);
+}
+
+.h3Effect::after {
+  content: "/>";
+  opacity: 0;
+  transition: opacity 0.2s;
+  color: rgb(196, 130, 7);
+}
+
+.aboutWelcomeLeft:hover .h3Effect::before {
+  opacity: 1;
+}
+
+.aboutWelcomeLeft:hover .h3Effect::after {
+  opacity: 1;
+}
+
+.aboutWelcomeRight{
+  width: 75%;
+  border-left: solid 5px #065662;
+}
+
+.profilepic{
+  background-image: url(./multimedia/PROFILE\ PIC2.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 20vh;
+  width: 20vh;
+  border-radius: 50%;
+  margin: 3vh;
+}
+
+.bio{
+  flex-direction: column;
+  padding: 40px 10%;
+  min-height: 100vh;
+}
+
+.aboutBioTitle{
+  color: #660336;
+  text-align: center;
+  padding: 30px;
+}
+
+.aboutBioItem{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.aboutIcon{
+  width: 20%
+}
+
+.aboutParr{
+  width: 80%;
+  font-family: Roboto;
+  font-size: 20px;
+  color: #fff;
+}
+
+/* termina el about */
+
+/* arranca el articles*/
+
+.welcomeArticles{
+  min-height: 100vh;
+  background-color: #313131;
+  background-image: linear-gradient(43deg, #313131 0%, #141414 46%, #000000 100%);
+  padding: 10%;
+}
+
+.article{
+  color: #fff;
+}
+
+.carousel{
+  height: 80%;
+}
+
+.carousel-item{
+  padding: 10%;
+}
+
+
+.carousel-item h2{
+  text-align: center;
+  padding: 25% 25%;
+}
+
+.carousel-item h3{
+  text-align: center;
+  padding: 20% 20%;
+}
+
+.carousel-item p{
+  text-align: center;
+  padding: 10% 10%;
+}
+
+/* empiezan los media querys */
+
+@media only screen and (max-width: 767px){
+  
+  .aboutWelcome{
+      flex-direction: column;
+  }
+
+  .aboutWelcomeLeft{
+      width: auto;
+      height: auto;
+      border-right: none;
+      align-self: center;
+  }
+
+  .aboutWelcomeRight{
+      border-left: none;
+  }
+  
+  .contacticon img{
+      height: 50px;
+      width: 50px;
+  }
+
+  .aboutBioItem{
+      flex-direction: column;
+  }
+
+  .aboutIcon{
+      padding: 10px 0;
+  }
+
+  .aboutParr{
+      text-align: center;
+  }
+
+}
