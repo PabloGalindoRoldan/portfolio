@@ -43,7 +43,7 @@ body {
 .welcome {
   height: calc(100vh - 20px);
   background-color: #313131;
-  background-image: linear-gradient(43deg, #313131 0%, #141414 46%, #000000 100%);
+  background-image: linear-gradient(12deg, #313131 0%, #141414 46%, #000000 100%);
   color: #fff;
   display: flex;
   flex-direction: column;
@@ -140,7 +140,7 @@ h2{
 }
 
 .imgtdp{
-  background-image: url(./multimedia/technicalDocumentationPage.png);
+  background-image: url(./multimedia/SQLSite.jpg);
 }
 
 .imgtp{
